@@ -14,4 +14,5 @@ gem "sqlite3", '~> 1.4.1'
 gem 'shotgun'
 
 group :development do
-  gem "tux"ß
+  gem "tux"
+end
