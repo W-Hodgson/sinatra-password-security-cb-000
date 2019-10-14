@@ -34,6 +34,10 @@ class ApplicationController < Sinatra::Base
 	post "/login" do
 		user = User.find_by(:username => params[:username])
 		if user && user.authenticate(params[:password])
+
+		else
+
+		end
 	end
 
 	get "/success" do
